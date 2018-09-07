@@ -23,7 +23,9 @@
         "url": "https://github.com/EmonCodingFrontEnd/nodejs/issues"
     },
     "homepage": "https://github.com/EmonCodingFrontEnd/nodejs#readme",
-    "dependencies": {},
+    "dependencies": {
+        "chalk": "2.4.1"
+    },
     "devDependencies": {
         "pre-commit": "^1.2.2"
     }
