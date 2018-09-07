@@ -1,6 +1,9 @@
 ### IntelliJ IDEA ###
 .idea
 
+### MAC系统 ###
+.DS_Store
+
 # Logs
 logs
 *.log
