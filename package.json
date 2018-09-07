@@ -4,8 +4,14 @@
     "description": "NodeJS学习",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "fix": "eslint --fix .",
+        "lint": "eslint ."
     },
+    "pre-commit": [
+        "fix",
+        "lint"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/EmonCodingFrontEnd/nodejs.git"
@@ -16,5 +22,9 @@
     "bugs": {
         "url": "https://github.com/EmonCodingFrontEnd/nodejs/issues"
     },
-    "homepage": "https://github.com/EmonCodingFrontEnd/nodejs#readme"
+    "homepage": "https://github.com/EmonCodingFrontEnd/nodejs#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "pre-commit": "^1.2.2"
+    }
 }
