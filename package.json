@@ -24,7 +24,8 @@
     },
     "homepage": "https://github.com/EmonCodingFrontEnd/nodejs#readme",
     "dependencies": {
-        "chalk": "2.4.1"
+        "chalk": "^2.4.1",
+        "handlebars": "^4.0.12"
     },
     "devDependencies": {
         "pre-commit": "^1.2.2"
